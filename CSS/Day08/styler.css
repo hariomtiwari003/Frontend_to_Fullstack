@@ -1,0 +1,18 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+    span{
+    background-color: orange;
+     height: 300px;
+    width: 300px;
+}
+
+h1{
+    background-color: brown;
+    /* height: 300px;
+    width: 300px; */
+    /* padding: 50px; */
+    display: inline;
+}

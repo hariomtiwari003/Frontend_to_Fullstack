@@ -1,0 +1,53 @@
+
+/* ------tag base selection------ */
+
+/* h1{
+    background-color: rgb(233, 233, 12);
+}
+ul{
+    background-color: blue;
+} */
+
+/* ------ID base selection----- */
+
+/* #first{
+    background: pink;
+} */
+
+
+/* ------class base selection----- */
+
+/* .second{
+    background-color: rgb(7, 238, 238);
+} */
+
+
+/* group base selection---- */
+
+/* h1, #first, .second{
+    background-color: blue;
+}
+
+ */
+
+/* ----------------font------ */
+
+/* #ram{
+    background-color: rgb(18, 95, 28);
+    font-size: 20px;
+} */
+h1{
+    font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+
+    
+}
+
+/* h2{
+    background-color: aqua;
+    font-size: 2vw;
+} */
+
+
