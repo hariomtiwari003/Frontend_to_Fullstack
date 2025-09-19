@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+      gap: 20px;
+}
+.box{
+    height: 150px;
+    width:150px;
+    background-color: orange;
+    /* transition-property: all;
+    transition-delay: 2s;
+    transition-duration: 2s;
+    transition-timing-function: ease-in; */
+    /* transition: all 3s; */
+    font-size: 50px;
+    color: white;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+}
+@keyframes moving {
+    from{
+        transform:rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* .box:hover{
+    background-color: blueviolet;
+    height: 300px;
+    width: 250px;
+} */
